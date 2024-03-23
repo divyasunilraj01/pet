@@ -19,8 +19,8 @@ import org.springframework.samples.petclinic.model.Vet;
 import org.springframework.samples.petclinic.repository.VetRepository;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import jakarta.persistence.Entity;
+import jakarta.persistence.PersistenceContext;
 import java.util.Collection;
 
 /**
@@ -35,8 +35,8 @@ import java.util.Collection;
 @Repository
 public class JpaVetRepositoryImpl implements VetRepository {
 
-    @PersistenceContext
-    private EntityManager em;
+    @jakarta.persistence.PersistenceContext
+    private jakarta.persistence.EntityManager em;
 
 
     @Override
