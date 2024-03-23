@@ -1,5 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.clinic</groupId>
   <artifactId>pets</artifactId>
@@ -162,10 +163,66 @@
     <version>2.2</version>
     <scope>test</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>6.1.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.ws/spring-oxm -->
+<dependency>
+    <groupId>org.springframework.ws</groupId>
+    <artifactId>spring-oxm</artifactId>
+    <version>1.5.9</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.nuiton.js/nuiton-js-wro -->
+<dependency>
+    <groupId>org.nuiton.js</groupId>
+    <artifactId>nuiton-js-wro</artifactId>
+    <version>1.0.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.webjars.bower/jquery -->
+<dependency>
+    <groupId>org.webjars.bower</groupId>
+    <artifactId>jquery</artifactId>
+    <version>3.5.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.webjars/jquery-ui -->
+<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>jquery-ui</artifactId>
+    <version>1.12.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+<dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.25.3</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-entitymanager</artifactId>
+    <version>5.6.15.Final</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
+<dependency>
+    <groupId>org.hibernate.validator</groupId>
+    <artifactId>hibernate-validator</artifactId>
+    <version>8.0.1.Final</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-ehcache</artifactId>
+    <version>5.6.10.Final</version>
+</dependency>
 
 
 
   </dependencies>
+  
   <build>
     <finalName>pets</finalName>
   </build>
